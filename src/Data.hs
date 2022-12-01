@@ -6,10 +6,10 @@ module Data
 import Grid (Grid)
 
 grid :: Grid Char
-grid = [ "__C________R___"
+grid = [ "__C________R_R_"
        , "__SI________U__"
-       , "__HASKELL____B_"
-       , "__A__A_____S__Y"
+       , "__HASKELL__S_B_"
+       , "__A__A____TS__Y"
        , "__R___B___C____"
        , "__PHP____H_____"
        , "____S_LREP_____"
@@ -31,4 +31,5 @@ languages = [ "BASIC"
             , "PYTHON"
             , "RUBY"
             , "SCHEME"
+            , "RUST"
             ]
